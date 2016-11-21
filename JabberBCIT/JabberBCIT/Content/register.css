@@ -1,5 +1,3 @@
-﻿
-
 #bg {
   position: fixed; 
   top: -50%; 
@@ -19,9 +17,7 @@
   min-width: 50%;
   min-height: 50%;
 }
-#registerP{
-    background-image: url('../../Images/registerBG.jpg');
-}
+
 #registerP h1 {
     text-align:center;
     font-size: 46px;
@@ -33,6 +29,7 @@
     width:100%;
     color:#eee;
 }
+
 .container .register{
     margin-top: 100px;
     background-color:rgba(0,0,0,0.8);

@@ -3,7 +3,8 @@
 @{
     ViewBag.Title = "Log in";
 }
-<div id="bg" style="background-image: url('../../Images/registerBG.jpg');">
+<div id="bg">
+    <img src="../Images/registerBG.jpg" alt="">
 </div>
 <div class="container" id="loginContatiner">
     <div class="row">
@@ -42,6 +43,7 @@
         </div>
     </div>
 </div>
-    @section Scripts {
-        @Scripts.Render("~/bundles/jqueryval")
-    }
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
